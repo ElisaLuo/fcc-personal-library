@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 
-  const mongoDB = `mongodb://<dbuser>:<dbpassword>@ds151876.mlab.com:51876/ffc-personal-library`;
+  const mongoDB = `mongodb://elisa:pdnlxx021@ds151876.mlab.com:51876/ffc-personal-library`;
   mongoose.connect(mongoDB, {
     useNewUrlParser: true
   });
