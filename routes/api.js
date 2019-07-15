@@ -1,7 +1,7 @@
 'use strict';
 
 require('../mongoose');
-const { Book } = require('../models/book');
+const { Book } = require('../book');
 
 module.exports = app => {
   app
