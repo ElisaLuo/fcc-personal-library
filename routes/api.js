@@ -1,6 +1,6 @@
 'use strict';
 
-require('../db/mongoose');
+require('../mongoose');
 const { Book } = require('../models/book');
 
 module.exports = app => {
